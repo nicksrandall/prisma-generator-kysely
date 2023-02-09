@@ -78,7 +78,7 @@ generatorHandler({
           case 'Int':
             typeBuilder = 'number';
             break;
-          case 'JSON':
+          case 'Json':
             typeBuilder = 'any'; // TODO: better type
             break;
           case 'String':
